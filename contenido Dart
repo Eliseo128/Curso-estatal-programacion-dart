@@ -1,0 +1,156 @@
+¡Excelente iniciativa! Enseñar Dart a nivel preparatoria es una estrategia brillante. Al ser un lenguaje moderno, tipado y optimizado para UI (gracias a Flutter), permite a los estudiantes ver resultados tangibles rápidamente y aprender buenas prácticas de ingeniería de software sin la complejidad excesiva de lenguajes más antiguos como C++.
+
+Aquí tienes una propuesta de temario estructurado pedagógicamente para llevarlos de "no sé qué es una variable" a "comprendo la programación asíncrona y orientada a objetos".
+
+---
+
+# 🎯 Curso: Fundamentos de Dart (De Cero a Intermedio)
+
+**Objetivo:** Desarrollar el pensamiento lógico-computacional y dominar la sintaxis de Dart como base para el desarrollo de aplicaciones multiplataforma.
+
+### 🛠️ Módulo 0: Configuración y Primeros Pasos
+
+*El objetivo es tener el entorno listo y perder el miedo a la terminal.*
+
+1. **¿Qué es Dart?** Historia, usos (Flutter, Server, Web) y por qué aprenderlo.
+2. **Instalación del Entorno:**
+* Instalación del SDK de Dart.
+* Configuración de VS Code (extensiones esenciales).
+
+
+3. **Hola Mundo:** Estructura básica de un archivo `.dart`.
+4. **La función `main()`:** El punto de entrada de todo programa.
+5. **Comentarios y buenas prácticas:** Cómo documentar el código desde el día 1.
+
+### 🧱 Módulo 1: Fundamentos del Lenguaje
+
+*Construyendo los bloques básicos de la lógica.*
+
+1. **Variables y Tipos de Datos:**
+* Tipos primitivos: `int`, `double`, `String`, `bool`.
+* Inferencia de tipos (`var`).
+* Variables inmutables: `final` vs `const`.
+
+
+2. **Operadores:**
+* Aritméticos (`+`, `-`, `*`, `/`, `%`).
+* Asignación y comparación.
+* Lógicos (`&&`, `||`, `!`).
+
+
+3. **Interpolación de Strings:** Combinar texto y variables de forma elegante (`$variable`).
+
+---
+
+### 🔀 Módulo 2: Control de Flujo (Lógica de Decisiones)
+
+*Enseñando a la computadora a tomar decisiones.*
+
+1. **Condicionales:**
+* Sentencia `if` / `else if` / `else`.
+* El operador ternario (condición ? verdadero : falso).
+* Sentencia `switch` y `case`.
+
+
+2. **Ciclos (Bucles):**
+* Ciclo `for` estándar.
+* Ciclo `while` y `do-while`.
+* `break` y `continue`: controlando la interrupción.
+
+
+
+### 📦 Módulo 3: Funciones
+
+*Organización y reutilización de código.*
+
+1. **Definición de funciones:** Parámetros y valores de retorno (`return`).
+2. **Tipos de parámetros:**
+* Posicionales obligatorios.
+* Nombrados (Named parameters `{}`) - *Crucial para Flutter*.
+* Opcionales `[]`.
+
+
+3. **Arrow Functions:** Sintaxis corta (`=>`) para funciones de una línea.
+4. **Alcance (Scope):** Variables locales vs globales.
+
+---
+
+### 🗃️ Módulo 4: Colecciones (Manejo de Datos)
+
+*Cómo manipular grupos de información.*
+
+1. **Listas (Lists):**
+* Creación e indexación.
+* Métodos comunes: `add`, `remove`, `length`.
+* Iteración de listas (`for-in`).
+
+
+2. **Mapas (Maps):**
+* Estructura Clave-Valor (Key-Value).
+* Acceso y manipulación de datos.
+
+
+3. **Sets:** Colecciones de elementos únicos.
+4. **Métodos funcionales básicos:** Introducción a `.map()`, `.where()` (filtrado) y `.toList()`.
+
+### 🛡️ Módulo 5: Null Safety (Seguridad Nula)
+
+*Una característica distintiva de Dart moderno que evita errores comunes.*
+
+1. **El problema del Null:** ¿Por qué existen los errores de "null pointer"?
+2. **Variables Nullable vs Non-Nullable:** El uso del signo de interrogación `?`.
+3. **Aserción de no nulidad:** El uso del operador `!`.
+4. **La palabra clave `late`:** Inicialización tardía.
+
+---
+
+### 🏗️ Módulo 6: Programación Orientada a Objetos (POO)
+
+*El núcleo de Dart y el paso al nivel intermedio.*
+
+1. **Clases y Objetos:** La analogía del "plano" y la "casa".
+2. **Atributos y Métodos:** Estado y comportamiento.
+3. **Constructores:**
+* Constructor generativo básico.
+* Constructores nombrados (`Clase.fromJson`).
+
+
+4. **Encapsulamiento:** Propiedades privadas (uso del guion bajo `_propiedad`) y Getters/Setters.
+5. **Herencia:** `extends` y la palabra `super`.
+6. **Clases Abstractas e Interfaces:** `implements` vs `extends`.
+7. **Mixins:** Reutilización de código sin herencia múltiple (`with`).
+
+### ⏳ Módulo 7: Asincronía (Introducción)
+
+*Preparación para conectar con internet o bases de datos.*
+
+1. **El concepto de Asincronía:** Bloqueante vs No-bloqueante.
+2. **Future:** La promesa de un valor futuro.
+3. **Async / Await:** Escribir código asíncrono que parece síncrono.
+4. **Manejo de Errores:** Bloques `try`, `catch`, `finally`.
+
+---
+
+### 🚀 Módulo 8: Proyecto Final Integrador
+
+*Aplicando todo lo aprendido.*
+**Opción A (Consola):** "Sistema de Gestión Escolar"
+
+* Crear clases para `Alumno`, `Materia`, `Calificación`.
+* Usar Listas para guardar los alumnos.
+* Funciones para agregar alumno, calcular promedios, buscar por nombre.
+* Simular una carga de datos con `Future.delayed`.
+
+**Opción B (Introducción Visual):** Si el tiempo lo permite, hacer una "To-Do List" muy simple usando Dart puro en consola, o una introducción de 1 hora a cómo este código se ve en **Flutter**.
+
+---
+
+### 💡 Recomendaciones Metodológicas para Preparatoria
+
+1. **Retos Cortos:** Los adolescentes pierden el interés con teoría larga. Después de explicar `if/else`, ponles un reto: *"Escribe un programa que te diga si puedes votar basándose en tu edad"*.
+2. **Analogías:** Usa analogías del mundo real para la POO (Ej. Una Clase es un molde de galletas, el Objeto es la galleta).
+3. **Visual Studio Code:** Asegúrate de que usen extensiones como "Error Lens" para ver sus errores en tiempo real, esto reduce la frustración.
+
+### ¿Cuál es el siguiente paso?
+
+¿Te gustaría que desarrolle **el detalle de la primera clase** o que genere una **lista de 5 ejercicios prácticos** para el Módulo 2 (Lógica y Control de Flujo)?
