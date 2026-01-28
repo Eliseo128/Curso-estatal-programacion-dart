@@ -1,9 +1,3 @@
-¡Excelente iniciativa! Enseñar Dart a nivel preparatoria es una estrategia brillante. Al ser un lenguaje moderno, tipado y optimizado para UI (gracias a Flutter), permite a los estudiantes ver resultados tangibles rápidamente y aprender buenas prácticas de ingeniería de software sin la complejidad excesiva de lenguajes más antiguos como C++.
-
-Aquí tienes una propuesta de temario estructurado pedagógicamente para llevarlos de "no sé qué es una variable" a "comprendo la programación asíncrona y orientada a objetos".
-
----
-
 # 🎯 Curso: Fundamentos de Dart (De Cero a Intermedio)
 
 **Objetivo:** Desarrollar el pensamiento lógico-computacional y dominar la sintaxis de Dart como base para el desarrollo de aplicaciones multiplataforma.
@@ -153,4 +147,4 @@ Aquí tienes una propuesta de temario estructurado pedagógicamente para llevarl
 
 ### ¿Cuál es el siguiente paso?
 
-¿Te gustaría que desarrolle **el detalle de la primera clase** o que genere una **lista de 5 ejercicios prácticos** para el Módulo 2 (Lógica y Control de Flujo)?
+
